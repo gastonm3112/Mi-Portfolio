@@ -17,7 +17,7 @@ form.addEventListener("submit", e => {
             emailHelp.innerHTML = "¡Por favor, completa este campo!";
         }
     } else {
-        form.submit();
         sendMessage.innerHTML = "Tu mensaje ha sido envíado";
+        form.submit();
     }
 })
