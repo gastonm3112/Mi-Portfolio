@@ -186,6 +186,13 @@
             style="color: #f64d27"
           ></i>
         </div>
+
+        <div class="col-xl-3 col-lg-3 col-xs-12 d-flex justify-content-center">
+          <i
+            class="fab fa-vuejs fa-5x mb-5 iconos-skills datos"
+            style="color: #41b883"
+          ></i>
+        </div>
       </div>
     </section>
     <!-- FIN SKILLS -->
@@ -270,33 +277,58 @@
     <!-- FORMULARIO DE CONTACTO -->
     <section class="container mt-5 formulario" id="formulario">
       <h2 class="text-center pt-4">¡Contactame!</h2>
-        <div class="container mt-3">
-          <div class="row">
-            <div class="col-xl-10 col-xs-12 mx-auto">
-              <form name="contact" method="post" data-netlify="true" id="contact_form">
-                <div class="form-group">
-                  <label for="name">Nombre Completo:</label>
-                  <input type="text" class="form-control" id="name" name="name" placeholder="Nombre Completo">
-                  <small class="text-danger form-text" id="nameHelp"></small>
-                </div>
-                <div class="form-group">
-                  <label for="email">E-Mail</label>
-                  <input type="email" class="form-control" id="email" name="email" placeholder="Ejemplo@ejemplo.com">
-                  <small class="text-danger form-text" id="emailHelp"></small>
-                </div>
-                <div class="form-group">
-                  <label for="asunto">Contame sobre tu proyecto:</label>
-                  <textarea name="message" id="asunto"  class="form-control" style="resize: none;" placeholder="Escribí aqui..."></textarea>
-                </div>
-        
-                <button type="submit" class="btn btn-outline-secondary btn-block mt-4 mb-4">Enviar Mensaje <i class="fas fa-paper-plane"></i></button>
-                
-              </form>
-  
-            </div>
-          </div>
+      <div class="container mt-3">
+        <div class="row">
+          <div class="col-xl-10 col-xs-12 mx-auto">
+            <form
+              name="contact"
+              method="post"
+              data-netlify="true"
+              id="contact_form"
+            >
+              <div class="form-group">
+                <label for="name">Nombre Completo:</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  name="name"
+                  placeholder="Nombre Completo"
+                />
+                <small class="text-danger form-text" id="nameHelp"></small>
+              </div>
+              <div class="form-group">
+                <label for="email">E-Mail</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                  placeholder="Ejemplo@ejemplo.com"
+                />
+                <small class="text-danger form-text" id="emailHelp"></small>
+              </div>
+              <div class="form-group">
+                <label for="asunto">Contame sobre tu proyecto:</label>
+                <textarea
+                  name="message"
+                  id="asunto"
+                  class="form-control"
+                  style="resize: none"
+                  placeholder="Escribí aqui..."
+                ></textarea>
+              </div>
 
+              <button
+                type="submit"
+                class="btn btn-outline-secondary btn-block mt-4 mb-4"
+              >
+                Enviar Mensaje <i class="fas fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- FOOTER -->
